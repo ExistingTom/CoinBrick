@@ -302,25 +302,41 @@ function drawLineGraph(graph, points, container, id) {
         function count(graph, sum) {
             var totalGain = $(graph).find('.total-gain');
             var i = 0;
-            var time = 1300;
+            var time = 10;
             var intervalTime = Math.abs(time / sum);
             var timerID = 0;
             if (sum > 0) {
                 var timerID = setInterval(function () {
-                    i++;
+                    i = i + 10;
                     totalGain.text(("€" + i).replace("-",""));
-                    if (i === sum) clearInterval(timerID);
+                    if (i === sum || i > sum){ clearInterval(timerID); totalGain.text(("€" + sum).replace("-","")); }
                 }, intervalTime);
             } else if (sum < 0) {
                 var timerID = setInterval(function () {
                     i--;
                     totalGain.text(("€" + i).replace("-",""));
-                    if (i === sum) clearInterval(timerID);
+                    if (i === sum || i < sum){ clearInterval(timerID); totalGain.text(("€" + sum).replace("-","")); }
                 }, intervalTime);
             }
         }
 
         if(sum > 0){
+          $.ajax({
+            url: 'http://api.bitcoincharts.com/v1/weighted_prices.json',
+            success: function(result){
+              alert(result);
+            }
+          })
+          .done(function() {
+            console.log("success");
+          })
+          .fail(function() {
+            console.log("error");
+          })
+          .always(function() {
+            console.log("complete");
+          });
+          
           count(graph, 2356.00);
         } else {
           count(graph, 345);

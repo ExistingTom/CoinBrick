@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Buy BTC &amp; ETH | CoinBrick.io</title>
+	<title>Buy BTC &amp; ETH in Malta | CoinBrick.io</title>
 	<link rel="stylesheet" type="text/css" href="css/icosahedron.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.4.2/pixi.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
@@ -29,8 +30,15 @@
 			</div>
 		</div>
 		<div class="title">
+		  <br/>
 		  <h3>MALTA's #1 CRYPTO-MARKET TO</h3>
-		  <h1>BUY BITCOIN &amp; ETHEREUM</h1>
+		  <h1>BUY BITCOIN &amp; ETHEREUM</h1><br/>
+		  <div class="title-started">
+		  	<input class="title-input" type="" name="" placeholder="Enter your e-mail">
+		  	<div class="g-s-button">
+		  		Get Started
+		  	</div>
+		  </div>
 		</div>
 	</div>
 	<div id="stats">
@@ -75,9 +83,9 @@
 		      <h3 class="valueX">Tuesday 20th June 2017 11:15am</h3>
 		    </div>
 		    <div class="chart-values">
-		      <p class="h-value">24h</p>
-		      <p class="percentage-value"></p>
-		      <p class="total-gain"></p>
+		      <p class="total-gain" style="margin: 0; padding: 0;"></p>
+		      <p class="h-value" style="margin: 0; padding: 0;">24h</p>
+		      <p class="percentage-value" style="margin: 0; padding: 0;"></p>
 		    </div>
 		    <div class="triangle green"></div>
 		  </div>
@@ -89,9 +97,9 @@
 		      <h3 class="valueX">Tuesday 20th June 2017 11:15am</h3>
 		    </div>
 		    <div class="chart-values">
-		      <p class="h-value">24h</p>
-		      <p class="percentage-value"></p>
-		      <p class="total-gain"></p>
+		      <p class="total-gain" style="margin: 0; padding: 0;"></p>
+		      <p class="h-value" style="margin: 0; padding: 0;">24h</p>
+		      <p class="percentage-value" style="margin: 0; padding: 0;"></p>
 		    </div>
 		    <div class="triangle red"></div>
 		  </div>
@@ -114,6 +122,7 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper condimentum nibh, nec ultrices neque pharetra id. Cras tristique condimentum ligula ut pretium. Integer dignissim quis mi in suscipit. Vestibulum neque nunc, consectetur in tincidunt sit amet, eleifend nec ligula. Suspendisse vel lacinia tortor, a viverra augue. <a href="#">Create your account now..</a>
 				</div>
 			</div>
+			<br/><br/>
 			<div class="step">
 				<div class="step-header">
 					Step 2
@@ -125,6 +134,7 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper condimentum nibh, nec ultrices neque pharetra id. Cras tristique condimentum ligula ut pretium. Integer dignissim quis mi in suscipit. Vestibulum neque nunc, consectetur in tincidunt sit amet, eleifend nec ligula. Suspendisse vel lacinia tortor, a viverra augue. <a href="#">Verify your account now..</a>
 				</div>
 			</div>
+			<br/><br/>
 			<div class="step">
 				<div class="step-header">
 					Step 3
@@ -136,14 +146,54 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper condimentum nibh, nec ultrices neque pharetra id. Cras tristique condimentum ligula ut pretium. Integer dignissim quis mi in suscipit. Vestibulum neque nunc, consectetur in tincidunt sit amet, eleifend nec ligula. Suspendisse vel lacinia tortor, a viverra augue. <a href="#">Buy some currency now..</a>
 				</div>
 			</div>
-
 			<div style="text-align: center;">
 				<span class="sign-up-now">Sign up now</span>
 			</div>
 		</div>
 	</div>
-	<div class="">
-		
+	<div class="site-footer">
+		<div class="foot-section"></div>
+		<div class="foot-section x">
+			<div class="footer-logo"></div>
+			<div class="footer-copy">&copy; Copyright Coinbrick 2017</div>
+		</div>
+		<div class="foot-section x y">
+			<div class="footer-links">
+				<div class="foot-title">
+					Links
+				</div>
+				<div class="foot-links">
+					<div class="foot-link">Home</div>
+					<div class="foot-link">Sign in</div>
+					<div class="foot-link">Sign Up</div>
+					<div class="foot-link">Terms of Use</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot-section x">
+			<div class="footer-links">
+				<div class="foot-title">
+					Languages
+				</div>
+				<div class="foot-links">
+					<div class="foot-link">English</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot-section x y">
+			<div class="footer-links" style="padding: 0">
+				<div class="foot-title">
+					Payments
+				</div>
+				<div class="foot-links">
+					<div class="foot-link z"><i class="fa fa-cc-stripe"></i></div>
+					<div class="foot-link z"><i class="fa fa-cc-mastercard"></i></div>
+					<div class="foot-link z"><i class="fa fa-cc-visa"></i></div>
+					<div class="foot-link z"><i class="fa fa-cc-discover"></i></div>
+					<div class="foot-link z"><i class="fa fa-cc-amex"></i></div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<script type="text/javascript" src="js/icosahedron.js"></script>
 </body>

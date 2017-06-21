@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600");
 .more-pens {
   position: fixed;
   left: 20px;
@@ -323,7 +323,7 @@ body {
 }
 
 .chart-line {
-  width: 90%;
+  width: 101%;
 }
 
 .valueX {
@@ -432,10 +432,12 @@ body {
 }
 
 #getting-started {
+  padding-top: 40px;
   width: 100%;
   height: auto;
   background-image: url('../img/topographer.png');
   min-height: 300px;
+  padding-bottom: 40px;
 }
 
 .start-header {
@@ -497,5 +499,136 @@ a {
   font-family: "Montserrat";
   font-weight: 600;
   text-transform: uppercase;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+}
 
+.site-footer {
+  width: 100%;
+  background-color: #F7F7F7;
+  position: relative;
+}
+
+.foot-section {
+  width: 20%;
+  height: 180px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+}
+
+.x:hover {
+  background-color: rgba(0,0,0,0.07);
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.y {
+  width: 10% !important;
+}
+
+.footer-logo {
+  width: 100%;
+  margin-top: 40px;
+  height: 60px;
+  background-image: url('../img/logo_grad.png');
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-copy {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  color: #CFCFCF;
+}
+
+.footer-links {
+  margin-top: 40px;
+  text-align: left;
+  font-family: "Montserrat";
+  padding-left: 40px;
+}
+
+.foot-title {
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  color: #BABABA;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.foot-links {
+  color: #CFCFCF;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-size: 13px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.foot-link:hover {
+  color: #9E9E9E;
+}
+
+.z {
+  font-size: 24px;
+  display: inline-block;
+}
+
+.title-started {
+  display: inline-block;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.2);
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 3px;
+  overflow: auto;
+}
+
+.title-input {
+  outline: none;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 2px;
+  padding: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 400;
+  letter-spacing: 0.01px;
+  font-size: 17.5px;
+  color: white;
+  font-family: "Montserrat";
+  background-color: rgba(255,255,255, 0.4);
+  color: white;
+}
+
+.title-input::placeholder {
+  color: rgba(255,255,255, 0.6);
+}
+
+.g-s-button {
+  display: inline-block;
+  background-color: white;
+  padding: 12px;
+  padding-bottom: 8px;
+  padding-top: 10px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: -10px;
+  background: linear-gradient(25deg, #00a9f1, #cf00f1);
+  color: white;
 }
